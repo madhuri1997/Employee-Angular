@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { dept } from './models/dept.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'routing-demo';
+
+  val=''
+  // m!:dept
 }

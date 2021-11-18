@@ -1,0 +1,8 @@
+<div class="container">
+    <p><b>Here is a list of Department</b></p>
+  
+    <div class="list-group" *ngFor="let d of deptList">
+    <button type="button" class="list-group-item list-group-item-action" (click)="onSelectLink(d)">{{d.id}}</button>
+</div>
+</div>
+

@@ -1,0 +1,12 @@
+.success{
+    color: beige;
+    font-size: large;
+}
+.success-more{
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.danger{
+    color: red;
+    font-size: small;
+}
